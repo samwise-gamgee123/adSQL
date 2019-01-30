@@ -1,8 +1,10 @@
-DROP DATABASE ad_lister;
+
+DROP DATABASE IF EXISTS ad_lister;
 
 CREATE DATABASE IF NOT EXISTS ad_lister;
-
 USE ad_lister;
+
+SELECT ad_lister;
 
 CREATE TABLE IF NOT EXISTS users (
   user_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
